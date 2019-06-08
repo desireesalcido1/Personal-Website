@@ -29,26 +29,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #828282;}
     </div>
 
     </div>
-  </div>
 
   <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
   <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; background-color:#ffbfd0">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-text-white" onclick="myFunction()">PORTFOLIO</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-text-white" onclick="myFunction()">RESUME</a>
+    <a href="../index.html#projects" class="w3-bar-item w3-button w3-padding-large w3-text-white" onclick="myFunction()">PROJECTS</a>
+    <a href="resume/index.html" class="w3-bar-item w3-button w3-padding-large w3-text-white" onclick="myFunction()">RESUME</a>
+    <a href="../index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-text-white" onclick="myFunction()">CONTACT</a>
   </div>
 
+
   <!-- Page content -->
-  <div class="w3-content w3-padding-64" style="max-width:1500px">
+  <div class="w3-content w3-padding-64 w3-center" style="max-width:1500px">
 
   <!-- Header -->
   <header class="w3-cell-row w3-content w3-center" style="max-width:1200px;">
-    <div class="w3-container w3-cell w3-margin-left">
-      <img class="w3-image w3-border w3-circle" src="img/display.jpg" alt="display" width="500px" height="800px">
+    <div class="w3-container w3-cell w3-margin-left w3-mobile">
+      <img class="w3-image w3-border w3-border-white w3-circle" src="img/display.jpg" alt="display" style="max-width: 400px; max-height: 800px; margin-top: 40px;">
     </div>
 
-    <div class="w3-container w3-cell" style="max-width:30em">
+    <div class="w3-container w3-cell w3-mobile" style="max-width:30em; margin-left: 20px">
       <h1 style="margin-top: 60px">Hey There, I'm Desiree Salcido</h1>
-      <h4>Designer and Developer</h4>
+      <h3><i>Designer and Developer</i></h3>
       <p style="color: #828282">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       <p>
         <button class="w3-btn w3-round-large w3-text-white w3-hover-text-white" style="background-color: #ffbfd0">Download Resume</button>
@@ -57,22 +58,43 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #828282;}
   </header>
 
  <!-- Projects -->
- <div id="projects" class="w3-container w3-center w3-margin-top w3-padding">
+ <div id="projects" class="w3-mobile w3-container w3-center w3-margin-top w3-padding">
    <h1 class="w3-padding-16"> Recent Projects</h1>
    <div class="w3-row-padding">
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
+     <div class="container w3-col s4 w3-mobile" style="padding-top: 30px"><img class="image w3-image w3-round" src="img/pink-flowers.jpg" height="300px" width="400px">
+       <div class="middle">
+         <div class="text w3-round"><a class="image-link" href="#">See Project Details</a></div>
+       </div>
+    </div>
+    <div class="container w3-col s4 w3-mobile" style="padding-top: 30px"><img class="image w3-image w3-round" src="img/pink-flowers.jpg" height="300px" width="400px">
+      <div class="middle">
+        <div class="text w3-round"><a class="image-link" href="#">See Project Details</a></div>
+      </div>
    </div>
-   <div class="w3-row-padding">
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
+   <div class="container w3-col s4 w3-mobile" style="padding-top: 30px"><img class="image w3-image w3-round" src="img/pink-flowers.jpg" height="300px" width="400px">
+     <div class="middle">
+       <div class="text w3-round"><a class="image-link" href="#">See Project Details</a></div>
+     </div>
+  </div>
    </div>
-   <div class="w3-row-padding">
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
-     <div class="w3-col s4 w3-padding"><img class="w3-round" src="img/pink-flowers.jpg" height="300px" width="400px"></div>
+ </div>
+
+
+   <div class="w3-row-padding w3-mobile">
+     <div class="container w3-col s4 w3-mobile" style="padding-top: 30px"><img class="image w3-image w3-round" src="img/pink-flowers.jpg" height="300px" width="400px">
+       <div class="middle">
+         <div class="text w3-round"><a class="image-link" href="#">See Project Details</a></div>
+       </div>
+    </div>
+    <div class="container w3-col s4 w3-mobile" style="padding-top: 30px"><img class="image w3-image w3-round" src="img/pink-flowers.jpg" height="300px" width="400px">
+      <div class="middle">
+        <div class="text w3-round"><a class="image-link" href="#">See Project Details</a></div>
+      </div>
+   </div>
+   <div class="container w3-col s4 w3-mobile" style="padding-top: 30px"><img class="image w3-image w3-round" src="img/pink-flowers.jpg" height="300px" width="400px">
+     <div class="middle">
+       <div class="text w3-round"><a class="image-link" href="#">See Project Details</a></div>
+     </div>
    </div>
 </div>
 <hr>
@@ -80,11 +102,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #828282;}
 <!-- Contact Section -->
 <div id="contact" class="w3-cell-row w3-content w3-center w3-padding" style="max-width:900px;">
   <hr>
-  <div class="w3-container w3-cell w3-margin-left">
+  <div class="w3-container w3-cell w3-margin-left w3-mobile">
     <img class="w3-image w3-border-white w3-circle" src="img/resume.jpg" alt="display" width="400px" height="800px">
   </div>
 
-  <div class="w3-container w3-cell" style="max-width:30em">
+  <div class="w3-container w3-cell w3-mobile" style="max-width:30em">
     <h2 style="margin-top: 60px">Like what you see?</h2>
     <h4>Let's Chat!</h4>
       <h5 style="color: #828282"><i class="fa fa-envelope w3-xlarge"></i><a class="email" href="mailto:desiree.salcido1@gmail.com" target="_top">Send an Email</a></h5>
@@ -104,4 +126,54 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #828282;}
 i {
   margin-right: 10px;
 }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ffbfd0;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 </style>
+
+<!-- JavaScript -->
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
